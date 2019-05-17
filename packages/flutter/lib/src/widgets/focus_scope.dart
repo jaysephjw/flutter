@@ -234,7 +234,7 @@ class Focus extends StatefulWidget {
     super.debugFillProperties(properties);
     properties.add(StringProperty('debugLabel', debugLabel, defaultValue: null));
     properties.add(FlagProperty('autofocus', value: autofocus, ifTrue: 'AUTOFOCUS', defaultValue: false));
-    properties.add(DiagnosticsProperty<FocusScopeNode>('node', focusNode, defaultValue: null));
+    properties.add(DiagnosticsProperty<FocusNode>('node', focusNode, defaultValue: null));
   }
 
   @override
